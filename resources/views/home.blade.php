@@ -15,9 +15,9 @@
                 <div class="pr-5"><strong>45k</strong> followers</div>
                 <div class="pr-5"><strong>212</strong> following</div>
             </div>
-            <div class="pt-4 font-weight-bold"> cloneGram.org</div>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt suscipit animi, iusto odio temporibus dolore sed molestias voluptates laborum inventore impedit fugit provident dolorum nihil necessitatibus asperiores commodi eum nemo.</div>
-            <div><a href="#">cloneGram.org</a></div>
+            <div class="pt-4 font-weight-bold"> {{$user->profile->title}}</div>
+            <div>{{$user->profile->discription}}</div>
+        <div><a href="#">{{$user->profile->url }}</a></div>
         </div>
     </div>
 
