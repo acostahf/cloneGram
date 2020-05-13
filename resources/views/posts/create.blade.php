@@ -16,11 +16,11 @@
         
                             <input 
                             id="caption" 
-                            type="caption" 
+                            type="text" 
                             class="form-control @error('caption') is-invalid @enderror" 
                             name="caption" 
                             value="{{ old('caption') }}" 
-                            required autocomplete="caption">
+                            autocomplete="caption">
         
                             @error('caption')
                                 <span class="invalid-feedback" role="alert">
